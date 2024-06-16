@@ -1,0 +1,86 @@
+html{
+    background-color:red;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    display: block;
+    height: 400px;
+    width: 300px;
+    border-radius: 4%; 
+    padding: 0px;
+    border: 1px solid #ffff;
+    background-color: black;
+    padding: 40px 30px 20px 40px ;
+}
+
+
+.textcolor{
+    color: white;
+}
+
+input{
+    display: block;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    padding-inline-start: 20px;
+    border: 2px solid lightslategrey ;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+ .heading{
+    color: red;
+    display: flex;
+    justify-content: center;
+    outline: 1px white;
+    
+ }
+ .subheading{
+    margin-bottom: px;
+    color: red;
+    display: flex;
+    justify-content: center;
+ }
+  button{
+    width: 70px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    outline: 3px; 
+  }
+  .lb{
+    color :;
+    margin-bottom: 20px;
+  }
+
+.white{
+    color: #ffff;
+}
+ 
+input:active{
+    cursor: pointer;
+    background-color: rgba(202, 16, 16, 0.884);
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+input:focus{
+    box-shadow: 10xp 5xp 5xp 10xp red;
+    outline: none;
+}
