@@ -1,0 +1,16 @@
+/* id */
+            .square{
+                width: 150;
+                height: 150;
+
+            }
+            /* class */
+            .green{
+                background: green
+            }
+            .red{
+                background: red;
+            }
+            .lightblue{
+                background: lightblue;
+            }    
