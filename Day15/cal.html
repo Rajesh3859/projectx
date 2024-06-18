@@ -1,0 +1,63 @@
+<html>
+  <style>
+    .title {
+      position: absolute;
+      top: 20%;
+    }
+    body {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+      
+  </style>
+  <body>
+    <div class="title"><h1>Calculator</h1></div>
+    <div>
+      <table
+        border="1"
+        style="width: 300px; height: 400px; background-color: lightseagreen"
+      >
+        <tr>
+          <td
+            style="width: 200px; height: 50px; background-color: aqua"
+            colspan="4"
+          >
+            <input style="width: 200px; height: 30px" type="text" id="ans" />
+          </td>
+        </tr>
+        <tbody class="style">
+          <tr>
+            <td><input type="button" id="1" value="1" /></td>
+            <td><input type="button" id="2" value="2" /></td>
+            <td><input type="button" id="3" value="3" /></td>
+            <td><input type="button" id="+" value="+" /></td>
+          </tr>
+          <tr>
+            <td><input type="button" id="4" value="4" /></td>
+            <td><input type="button" id="5" value="5" /></td>
+            <td><input type="button" id="6" value="6" /></td>
+            <td><input type="button" id="-" value="-" /></td>
+          </tr>
+          <tr>
+            <td><input type="button" id="7" value="7" /></td>
+            <td><input type="button" id="8" value="8" /></td>
+            <td><input type="button" id="9" value="9" /></td>
+            <td><input type="button" id="/" value="/" /></td>
+          </tr>
+
+          <tr>
+            <td><input type="button" id="c" value="c" /></td>
+            <td><input type="button" id="0" value="0" /></td>
+            <td><input type="button" id="=" value="=" /></td>
+            <td><input type="button" id="*" value="*" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="cal.js"></script>
+  </body>
+  <html></html>
+</html>
