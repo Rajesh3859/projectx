@@ -1,0 +1,21 @@
+body {
+  background-image: url(https://images.pexels.com/photos/1704120/pexels-photo-1704120.jpeg);
+  color: #101820;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.font {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 200px;
+  background-color: rgb(9, 17, 31);
+  font-size: xx-large;
+  margin: 100px auto;
+  color: aliceblue;
+  border-radius: 30px;
+  outline: 10px solid rgb(255, 2, 179);
+}
